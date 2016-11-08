@@ -1,4 +1,4 @@
-/*
+﻿/*
 
     简单的进制转换。裁判一开始给RE真是醉了。
 
@@ -15,7 +15,7 @@ int64 check(int64 x)
 {
     int64 y = 0;
     while (x != 0) {
-        int64 r = x & ff;
+        int64 r = x & 0xff;
         if (r == 97)
             ++y;
         x >>= 8;

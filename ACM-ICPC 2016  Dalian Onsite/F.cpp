@@ -1,4 +1,4 @@
-/*
+﻿/*
     
     如果是实数的话，另每个数尽可能接近于e。
     整数不重复的话，拆成2，3，4，5，6，7.... 余下的往回家，最后的结果肯定是pi[l1, r1) * pi[l2, r2)的形式。
@@ -37,7 +37,7 @@ public:
         } else {
             node[idx].q = a;
             return node[idx].q;
-  ，      }
+        }
     }
 
     void query(int c, int d, long long& q, int idx = 1)
